@@ -1,0 +1,846 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+
+
+.wrapper {
+    overflow: hidden;
+}
+
+.section-1 {
+    background-image: url("../images/Rectangle.png");
+}
+
+.section-1 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 0px 0 0;
+}
+
+.header .hamburger-menu {
+    display: none;
+}
+
+.communication-number {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.communication-number span {
+    font-family: "Montserrat";
+    color: #3d2514;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header .navigations {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 25px;
+
+}
+
+.navigations li {
+    margin-left: 15px;
+    font-family: "Myriad Pro";
+}
+
+.navigations li a {
+    text-decoration: none;
+    color: #3d2514;
+    font-weight: bold;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+/*
+     HEADER xxxxxxxxxxxxxxxxxxxxxxxx
+*/
+
+.section-1 .content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-1 .left-side {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.section-1 .right-side {
+    overflow: hidden;
+    width: 50%;
+}
+
+.section-1 .right-side img {
+    width: 100%;
+    scale: 1.2;
+}
+
+.section-1 .left-side .text-1 {
+    border: dashed #3d2514;
+    padding: 5px;
+    display: inline;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+}
+
+.left-side .text-2 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-size: 114px;
+    text-shadow: 5px 5px #fff;
+}
+
+.left-side .text-3 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-size: 56px;
+    text-shadow: 5px 5px #fff;
+}
+
+
+/*
+     section-1 xxxxxxxxxxxxxxxxxxxxxxxx
+*/
+
+.section-2 .content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.content-2 .banners-flex-2 {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.banners-flex-2 .banner-column-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner-column-2 img {
+    width: 100%;
+}
+
+.banners-flex-2 .banner-column-2,
+.banner-column-2 .banner-line-2 {
+    position: relative;
+}
+
+.banner-column-2 .titles,
+.banner-line-2 .titles {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.banner-column-2 .titles .title,
+.banner-line-2 .titles .title {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.banner-column-2 .titles .text,
+.banner-line-2 .titles .text {
+    display: block;
+    font-size: 41px;
+    color: #fff;
+    margin-top: -25px;
+}
+
+.content-2 .text-contents-2 {
+    margin: 70px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text-contents-2 .title-button-2 {
+    background-color: #ffc045;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 4px 15px 0px 15px;
+
+}
+
+.text-contents-2 .title-text-2 {
+    margin-top: 35px;
+    font-size: 50px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.text-contents-2 .text-2 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #3d2514;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-2 .cards-2 {
+    display: flex;
+    margin: 25px 0px;
+    align-items: flex-end;
+}
+
+.cards-2 .card {
+    display: flex;
+    align-items: center;
+    border: none;
+    text-align: center;
+}
+
+.cards-2 .card img {
+    width: 100%;
+}
+
+.cards-2 .card .title {
+    font-size: 37px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cards-2 .card .text {
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards-2 .card .card-button {
+    display: inline-block;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    text-decoration: none;
+    padding: 20px 35px;
+}
+
+
+.slider-for {
+    box-shadow: 15px 18px 22px #3d3d3d63;
+    margin: 130px 0;
+}
+
+/* DİSABLED */
+.slider-for .slick-arrow {
+    display: none !important;
+}
+
+.slider-for .slick-dots {
+    position: absolute;
+    bottom: 0px;
+    width: 50%;
+    list-style: none;
+    margin: 0 0 25px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.slick-dots li {
+    background-color: #dcdcdc;
+    color: #dcdcdc;
+    float: left;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots li button::before {
+    content: "";
+    color: #dcdcdc !important;
+}
+
+.slick-dots .slick-active {
+    background-color: #ffc045;
+    color: #ffc045;
+}
+
+.slider-content {
+    display: flex !important;
+    padding: 25px;
+}
+
+.slider-text-area {
+    width: 50%;
+    position: relative;
+}
+
+
+.slider-text-area .slider-title {
+    font-size: 41px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.slider-text-area .slider-title.small {
+    font-size: 29px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.slider-text-area .slider-text {
+    font-size: 20px;
+    margin: 20px 0 35px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider-content .slider-banner {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.slider-banner img {
+    width: 100%;
+}
+
+/*
+     section-2 xxxxxxxxxxxxxxxxxxxxxxxx
+*/
+
+
+.section-3 {
+    background-image: url('../images/reservation.png');
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+
+}
+
+.section-3 .form-titles {
+    margin: 50px 0;
+}
+
+.section-3 .form-titles span {
+    display: block;
+    text-align: center;
+}
+
+.section-3 .form-titles .title-1 {
+    font-size: 30px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.section-3 .form-titles .title-2 {
+    font-size: 50px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.form-rezervation {
+    width: 65%;
+}
+
+.form-rezervation .form-row {
+    display: flex;
+}
+
+.form-row .form-item {
+    position: relative;
+    height: 65px;
+    margin: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 4px;
+    border: 1px solid #3d3d3d;
+    background-color: transparent;
+    width: 100%;
+}
+
+.form-row .form-item label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+}
+
+.form-row .form-item label.success {
+    display: none !important;
+}
+
+
+.form-item input:focus+label {
+    display: none;
+}
+
+.form-rezervation .form-row .form-item input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+.form-item input::-webkit-calendar-picker-indicator {
+    border: solid;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    background: transparent;
+    color: transparent;
+    z-index: 999;
+}
+
+.form-item.form-button {
+    padding: 0;
+    background: #bf2222;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    border: none;
+}
+
+.form-item.form-button input {
+    color: #fff;
+}
+
+.form-item .select {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+
+.select .main-select {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.select .select-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.select-list .item input {
+    position: absolute;
+    display: none;
+}
+
+.select-list .item label {
+    position: block;
+    position: inherit;
+    transform: translateY(0);
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+/* 
+    section-3 xxxxxxxxxxxxxxxxxxxxxx
+*/
+
+
+.section-4 {
+    padding: 60px 0;
+}
+
+.section-4 .footer {
+    background-image: url('../images/footer-back-image.png');
+    background-size: cover;
+    width: 100%;
+    padding: 30px 43px;
+}
+
+.footer .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-row.logo {
+    margin-top: 50px;
+}
+
+
+.footer-row .footer-column {
+    width: 50%;
+    color: #fff;
+}
+
+.footer-column.contact {
+    width: 38%;
+}
+
+.footer-column .footer-text {
+    margin-top: 48px;
+    font-size: 16px;
+    font-family: "Montserrat";
+}
+
+.footer-column .footer-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-column .footer-social-media {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-social-media .social-media-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #ffff;
+    color: #3d3d3d;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.social-media-icon i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer-item.compony {
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    width: 100%;
+}
+
+.footer-item i {
+    margin-right: 34px;
+    font-size: 25px;
+}
+
+.footer-row.bottom-section {
+    margin-top: 154px
+}
+
+.bottom-section .footer-column {
+    width: 100%;
+}
+
+/* TABLET */
+
+
+@media (max-width:991px) {
+
+
+    /* section-1 */
+    .section-1 .content .left-side .text-1 {
+        font-size: 16px;
+    }
+
+    .left-side .text-2 {
+        font-size: 70px;
+    }
+
+    .left-side .text-3 {
+        font-size: 45px;
+    }
+
+    /* section-2 */
+
+
+    .section-2 .banners-flex-2 .titles .title {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .section-2 .banners-flex-2 .titles .text {
+        font-size: 35px;
+        line-height: 28px;
+        margin: 0px;
+    }
+
+    /* section -3 */
+
+
+    .section-3 .form-titles .title-1 {
+        font-size: 20px;
+    }
+
+
+    .section-3 .form-titles .title-2 {
+        font-size: 40px;
+    }
+
+
+    .section-3 .form-rezervation .form-row {
+        flex-wrap: wrap;
+    }
+
+
+    /* section-4 */
+
+
+    .section-4 {
+        padding: 0px;
+    }
+
+    .section-4 .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .section-4 .footer .logo img {
+        width: 75%;
+    }
+
+    .footer .footer-column .footer-text {
+        font-size: 14px;
+    }
+
+    .footer .footer-column .footer-item i {
+        font-size: 20px;
+    }
+
+    .footer .footer-column .footer-item-text {
+        font-size: 14px;
+    }
+
+    .footer .company {
+        font-size: 14px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:768px) {
+
+    /* Section-1 */
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
+        padding: 0;
+    }
+
+    .header .top-header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top-header .logo img {
+        width: 75%
+    }
+
+    .header .hamburger-menu {
+        display: block;
+    }
+
+    .hamburger-menu i {
+        font-size: 30px;
+    }
+
+    .header .header-right-menu {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .header-right-menu .navigations.active {
+        display: block;
+    }
+
+    .header-right-menu .communication-number {
+        justify-content: flex-start;
+    }
+
+    .communication-number span {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .communication-number img {
+        width: 35px;
+    }
+
+    .header-right-menu .navigations {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .navigations li {
+        padding: 8px;
+        cursor: pointer;
+    }
+
+    .section-1 .content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .section-1 .content .right-side {
+        width: 100%;
+    }
+
+    .left-side {
+        width: 100% !important;
+    }
+
+    .section-1 .content .left-side .text-1 {
+        font-size: 16px;
+    }
+
+    .left-side .text-2 {
+        font-size: 70px;
+    }
+
+    .left-side .text-3 {
+        font-size: 45px;
+    }
+
+    /* section-2 */
+
+    .section-2 .banners-flex-2 {
+        flex-wrap: wrap;
+    }
+
+    .section-2 .text-contents-2 .title-text-2 {
+        font-size: 30px;
+    }
+
+    .text-contents-2 .text-2 {
+        font-size: 14px;
+    }
+
+    .cards-2 {
+        flex-direction: column;
+    }
+
+    .cards-2 .card {
+        margin: 50px 0px;
+    }
+
+    .cards-2 .card img {
+        width: 70%;
+    }
+
+    .cards-2 .card .title {
+        font-size: 25px;
+    }
+
+    .cards-2 .card .text {
+        font-size: 15px;
+    }
+
+    .cards-2 .card .card-button {
+        padding: 10px 15px;
+    }
+
+    /*Slider */
+
+
+
+    .section-2 .slider-content {
+        flex-direction: column;
+    }
+
+    .slider-content .slider-text-area {
+        width: 100%;
+    }
+
+    .slider-text-area .slider-title.small {
+        font-size: 20px;
+    }
+
+    .slider-text-area .slider-title {
+        font-size: 30px;
+    }
+
+    .slider-text-area .slider-text {
+        font-size: 15px;
+    }
+
+    .slider-content .slider-banner {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .form-rezervation {
+        width: 100%;
+    }
+
+    .slick-dots {
+        position: absolute;
+        width: 100% !important;
+        left: 0px !important;
+        margin: 0px !important;
+        bottom: -15px !important;
+        background-color: #fff;
+        padding: 15px !important;
+    }
+
+
+    /* section-4 */
+
+
+    .footer .footer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-row .contact {
+        margin-top: 30px;
+    }
+
+    .footer-row .footer-column {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px 0;
+    }
+
+    .footer-item i {
+        margin: 0 0 5px 0;
+    }
+
+    .bottom-section .footer-social-media {
+        justify-content: center;
+    }
+
+
+
+
+}
