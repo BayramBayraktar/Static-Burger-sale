@@ -6,6 +6,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="./assets/images/motorcycle.png">
+
+    <!-- manifets -->
+    <link rel="manifest" href="manifest.json">
+
     <!---CSS-->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -294,23 +299,10 @@
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/slick.js"></script>
 
-    <script>
-        $('.slider-for').slick({
-            dots: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-        });
+
+    <script src="./assets/js/main.js"></script>
 
 
-        $('.hamburger-menu').click(() => {
-            $('.navigations').slideToggle('active')
-        })
-
-
-
-    </script>
 </body>
 
 </html>
